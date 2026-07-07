@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brandon's Book Library</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="top-nav">
+  <div class="brand">Brandon's <span>Library</span></div>
+</div>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="kicker">Book Strategist · Personal Knowledge System</div>
+    <h1>The Library</h1>
+    <p>Every book broken down into a deployable system: core thesis, mental models, an actionable playbook, and a one-page cheat sheet — built to sharpen decisions, not just summarize a read.</p>
+  </div>
+
+  <div class="filter-bar" role="group" aria-label="Filter by tag">
+    <button class="filter-btn active" data-filter="all">All <span class="count">22</span></button>
+    <button class="filter-btn" data-filter="Leadership">Leadership <span class="count">6</span></button>
+    <button class="filter-btn" data-filter="Strategy">Strategy <span class="count">4</span></button>
+    <button class="filter-btn" data-filter="Wealth">Wealth <span class="count">4</span></button>
+    <button class="filter-btn" data-filter="Systems">Systems <span class="count">4</span></button>
+    <button class="filter-btn" data-filter="Habits">Habits <span class="count">3</span></button>
+    <button class="filter-btn" data-filter="Behavior">Behavior <span class="count">3</span></button>
+    <button class="filter-btn" data-filter="Communication">Communication <span class="count">3</span></button>
+    <button class="filter-btn" data-filter="Positioning">Positioning <span class="count">2</span></button>
+    <button class="filter-btn" data-filter="Management">Management <span class="count">2</span></button>
+    <button class="filter-btn" data-filter="Scaling">Scaling <span class="count">2</span></button>
+    <button class="filter-btn" data-filter="Career">Career <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Composure">Composure <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Confidence">Confidence <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Consistency">Consistency <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="EQ">EQ <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Feedback">Feedback <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Focus">Focus <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Negotiation">Negotiation <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Stoicism">Stoicism <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Trust">Trust <span class="count">1</span></button>
+    <button class="filter-btn" data-filter="Values">Values <span class="count">1</span></button>
+  </div>
+
+  <div class="grid">
+
+    <div class="card" data-tags="Strategy,Positioning">
+      <a class="card-link" href="books/zero-to-one.html" aria-label="Open Zero to One"></a>
+      <div class="eyebrow">Strategy · Business Building</div>
+      <h3>Zero to One</h3>
+      <div class="author">Peter Thiel</div>
+      <div class="hook">Real value comes from building something genuinely new and owning it completely — not competing harder for a share of what already exists.</div>
+      <div class="tags"><span class="tag">Strategy</span><span class="tag">Positioning</span></div>
+    </div>
+
+    <div class="card" data-tags="Habits,Consistency">
+      <a class="card-link" href="books/compound-effect.html" aria-label="Open The Compound Effect"></a>
+      <div class="eyebrow">Habits · Discipline</div>
+      <h3>The Compound Effect</h3>
+      <div class="author">Darren Hardy</div>
+      <div class="hook">Radical results come from ordinary choices, repeated consistently, long enough for the math to compound.</div>
+      <div class="tags"><span class="tag">Habits</span><span class="tag">Consistency</span></div>
+    </div>
+
+    <div class="card" data-tags="Strategy,Positioning">
+      <a class="card-link" href="books/art-of-war.html" aria-label="Open The Art of War"></a>
+      <div class="eyebrow">Strategy · Competitive Positioning</div>
+      <h3>The Art of War</h3>
+      <div class="author">Sun Tzu</div>
+      <div class="hook">The battle is won or lost before it starts, through preparation, positioning, and honest self-knowledge.</div>
+      <div class="tags"><span class="tag">Strategy</span><span class="tag">Positioning</span></div>
+    </div>
+
+    <div class="card" data-tags="Wealth,Systems">
+      <a class="card-link" href="books/millionaire-fastlane.html" aria-label="Open The Millionaire Fastlane"></a>
+      <div class="eyebrow">Wealth Building · Mindset</div>
+      <h3>The Millionaire Fastlane</h3>
+      <div class="author">MJ DeMarco</div>
+      <div class="hook">Real wealth comes from building scalable systems that produce independent of your personal hours.</div>
+      <div class="tags"><span class="tag">Wealth</span><span class="tag">Systems</span></div>
+    </div>
+
+    <div class="card" data-tags="Wealth,Behavior">
+      <a class="card-link" href="books/psychology-of-money.html" aria-label="Open The Psychology of Money"></a>
+      <div class="eyebrow">Wealth Building · Behavior</div>
+      <h3>The Psychology of Money</h3>
+      <div class="author">Morgan Housel</div>
+      <div class="hook">Wealth and good decisions come from behaving well and staying in the game long enough for time to compound.</div>
+      <div class="tags"><span class="tag">Wealth</span><span class="tag">Behavior</span></div>
+    </div>
+
+    <div class="card" data-tags="Stoicism,Composure">
+      <a class="card-link" href="books/meditations.html" aria-label="Open Meditations"></a>
+      <div class="eyebrow">Stoicism · Leadership Under Pressure</div>
+      <h3>Meditations</h3>
+      <div class="author">Marcus Aurelius</div>
+      <div class="hook">Peace and effective action come from controlling only what's actually yours to control.</div>
+      <div class="tags"><span class="tag">Stoicism</span><span class="tag">Composure</span></div>
+    </div>
+
+    <div class="card" data-tags="Habits,Systems">
+      <a class="card-link" href="books/atomic-habits.html" aria-label="Open Atomic Habits"></a>
+      <div class="eyebrow">Habits · Behavior Change</div>
+      <h3>Atomic Habits</h3>
+      <div class="author">James Clear</div>
+      <div class="hook">Lasting change comes from small, identity-aligned habits supported by a well-designed system.</div>
+      <div class="tags"><span class="tag">Habits</span><span class="tag">Systems</span></div>
+    </div>
+
+    <div class="card" data-tags="Negotiation,EQ">
+      <a class="card-link" href="books/never-split-the-difference.html" aria-label="Open Never Split the Difference"></a>
+      <div class="eyebrow">Negotiation · Emotional Intelligence</div>
+      <h3>Never Split the Difference</h3>
+      <div class="author">Chris Voss</div>
+      <div class="hook">Great negotiators use tactical empathy to find the real need on the other side, instead of splitting the difference.</div>
+      <div class="tags"><span class="tag">Negotiation</span><span class="tag">EQ</span></div>
+    </div>
+
+    <div class="card" data-tags="Values,Focus">
+      <a class="card-link" href="books/subtle-art.html" aria-label="Open The Subtle Art of Not Giving a F*ck"></a>
+      <div class="eyebrow">Values · Prioritization</div>
+      <h3>The Subtle Art of Not Giving a F*ck</h3>
+      <div class="author">Mark Manson</div>
+      <div class="hook">A meaningful life comes from deliberately choosing what deserves your limited caring.</div>
+      <div class="tags"><span class="tag">Values</span><span class="tag">Focus</span></div>
+    </div>
+
+    <div class="card" data-tags="Career,Strategy">
+      <a class="card-link" href="books/compass-solution.html" aria-label="Open The Compass Solution"></a>
+      <div class="eyebrow">Career Strategy · Organizational Savvy</div>
+      <h3>The Compass Solution</h3>
+      <div class="author">Cole</div>
+      <div class="hook">Career advancement requires pairing good work with a deliberate strategy for visibility and sponsorship.</div>
+      <div class="tags"><span class="tag">Career</span><span class="tag">Strategy</span></div>
+    </div>
+
+    <div class="card" data-tags="Management,Feedback">
+      <a class="card-link" href="books/radical-candor.html" aria-label="Open Radical Candor"></a>
+      <div class="eyebrow">Management · Feedback</div>
+      <h3>Radical Candor</h3>
+      <div class="author">Kim Scott</div>
+      <div class="hook">Good management means caring about people enough to tell them the truth directly.</div>
+      <div class="tags"><span class="tag">Management</span><span class="tag">Feedback</span></div>
+    </div>
+
+    <div class="card" data-tags="Confidence,Communication">
+      <a class="card-link" href="books/not-nice.html" aria-label="Open Not Nice"></a>
+      <div class="eyebrow">Confidence · Authenticity</div>
+      <h3>Not Nice</h3>
+      <div class="author">Dr. Aziz Gazipura</div>
+      <div class="hook">Real confidence and real kindness both require being willing to risk someone's disapproval.</div>
+      <div class="tags"><span class="tag">Confidence</span><span class="tag">Communication</span></div>
+    </div>
+
+    <div class="card" data-tags="Leadership,Trust">
+      <a class="card-link" href="books/dare-to-lead.html" aria-label="Open Dare to Lead"></a>
+      <div class="eyebrow">Leadership · Vulnerability &amp; Trust</div>
+      <h3>Dare to Lead</h3>
+      <div class="author">Brené Brown</div>
+      <div class="hook">Real leadership courage comes from showing up honestly and giving clear feedback, not projecting armored certainty.</div>
+      <div class="tags"><span class="tag">Leadership</span><span class="tag">Trust</span></div>
+    </div>
+
+    <div class="card" data-tags="Leadership,Communication">
+      <a class="card-link" href="books/fierce-conversations.html" aria-label="Open Fierce Conversations"></a>
+      <div class="eyebrow">Leadership · Difficult Conversations</div>
+      <h3>Fierce Conversations</h3>
+      <div class="author">Susan Scott</div>
+      <div class="hook">Every relationship and organization is the sum of its real conversations — the one you're avoiding is the one actually shaping the outcome.</div>
+      <div class="tags"><span class="tag">Leadership</span><span class="tag">Communication</span></div>
+    </div>
+
+    <div class="card" data-tags="Wealth,Behavior">
+      <a class="card-link" href="books/rich-dad-poor-dad.html" aria-label="Open Rich Dad Poor Dad"></a>
+      <div class="eyebrow">Wealth Building · Financial Literacy</div>
+      <h3>Rich Dad Poor Dad</h3>
+      <div class="author">Robert Kiyosaki</div>
+      <div class="hook">Wealth comes from acquiring assets that pay you, not from a bigger paycheck spent on liabilities that look like assets.</div>
+      <div class="tags"><span class="tag">Wealth</span><span class="tag">Behavior</span></div>
+    </div>
+
+    <div class="card" data-tags="Wealth,Behavior">
+      <a class="card-link" href="books/millionaire-next-door.html" aria-label="Open The Millionaire Next Door"></a>
+      <div class="eyebrow">Wealth Building · Behavior Research</div>
+      <h3>The Millionaire Next Door</h3>
+      <div class="author">Thomas J. Stanley &amp; William D. Danko</div>
+      <div class="hook">Real wealth is built quietly, through decades of frugality and disciplined investing — not displayed through lifestyle.</div>
+      <div class="tags"><span class="tag">Wealth</span><span class="tag">Behavior</span></div>
+    </div>
+
+    <div class="card" data-tags="Scaling,Systems">
+      <a class="card-link" href="books/get-scalable.html" aria-label="Open Get Scalable"></a>
+      <div class="eyebrow">Scaling · Operating Systems</div>
+      <h3>Get Scalable</h3>
+      <div class="author">Ryan Deiss &amp; Roland Frasier</div>
+      <div class="hook">A business scales when it stops depending on its leader for every decision and starts running on a defined operating system instead.</div>
+      <div class="tags"><span class="tag">Scaling</span><span class="tag">Systems</span></div>
+    </div>
+
+    <div class="card" data-tags="Habits,Leadership">
+      <a class="card-link" href="books/7-habits.html" aria-label="Open The 7 Habits of Highly Effective People"></a>
+      <div class="eyebrow">Habits · Personal Effectiveness</div>
+      <h3>The 7 Habits of Highly Effective People</h3>
+      <div class="author">Stephen R. Covey</div>
+      <div class="hook">Lasting effectiveness comes from aligning daily habits with your actual principles and priorities.</div>
+      <div class="tags"><span class="tag">Habits</span><span class="tag">Leadership</span></div>
+    </div>
+
+    <div class="card" data-tags="Scaling,Systems">
+      <a class="card-link" href="books/science-of-scaling.html" aria-label="Open The Science of Scaling"></a>
+      <div class="eyebrow">Scaling · Growth Operations</div>
+      <h3>The Science of Scaling</h3>
+      <div class="author">Unconfirmed — verify against your own copy</div>
+      <div class="hook">Scaling well means diagnosing the real constraint on growth at your current size — not just doing more of what worked before.</div>
+      <div class="tags"><span class="tag">Scaling</span><span class="tag">Systems</span></div>
+    </div>
+
+    <div class="card" data-tags="Communication,Leadership">
+      <a class="card-link" href="books/crucial-conversations.html" aria-label="Open Crucial Conversations"></a>
+      <div class="eyebrow">Leadership · High-Stakes Communication</div>
+      <h3>Crucial Conversations</h3>
+      <div class="author">Patterson, Grenny, McMillan &amp; Switzler</div>
+      <div class="hook">The hardest conversations go well when you protect both truth and safety at the same time.</div>
+      <div class="tags"><span class="tag">Communication</span><span class="tag">Leadership</span></div>
+    </div>
+
+    <div class="card" data-tags="Leadership,Management">
+      <a class="card-link" href="books/leading-for-impact.html" aria-label="Open Leading for Impact"></a>
+      <div class="eyebrow">Leadership · Management Effectiveness</div>
+      <h3>Leading for Impact</h3>
+      <div class="author">Unconfirmed — verify against your own copy</div>
+      <div class="hook">Real leadership impact shows up in what your team can do without you, not in how much you personally get done.</div>
+      <div class="tags"><span class="tag">Leadership</span><span class="tag">Management</span></div>
+    </div>
+
+    <div class="card" data-tags="Strategy,Leadership">
+      <a class="card-link" href="books/start-with-why.html" aria-label="Open Start with Why"></a>
+      <div class="eyebrow">Strategy · Purpose-Driven Leadership</div>
+      <h3>Start with Why</h3>
+      <div class="author">Simon Sinek</div>
+      <div class="hook">People don't buy what you do, they buy why you do it.</div>
+      <div class="tags"><span class="tag">Strategy</span><span class="tag">Leadership</span></div>
+    </div>
+
+  </div>
+
+  <div class="no-results" id="noResults">No books match this filter yet.</div>
+
+  <footer class="site-footer">
+    Built with the Book Strategist framework · add a new book by dropping another card + page in this same format
+  </footer>
+
+</div>
+
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter-btn');
+  var cards = document.querySelectorAll('.card');
+  var noResults = document.getElementById('noResults');
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      var filter = btn.getAttribute('data-filter');
+      var visibleCount = 0;
+
+      cards.forEach(function (card) {
+        var tags = (card.getAttribute('data-tags') || '').split(',');
+        var matches = (filter === 'all' || tags.indexOf(filter) !== -1);
+        card.classList.toggle('is-hidden', !matches);
+        if (matches) visibleCount++;
+      });
+
+      noResults.classList.toggle('show', visibleCount === 0);
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
